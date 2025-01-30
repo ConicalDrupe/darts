@@ -239,4 +239,4 @@ class ARIMA(TransferableFutureCovariatesLocalForecastingModel):
 
     @property
     def min_train_series_length(self) -> int:
-        return 30
+        return 10
